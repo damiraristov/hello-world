@@ -1,0 +1,46 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    width: auto;
+    background-color: black;
+    display: flex;
+}
+.header_logo{
+    text-transform: uppercase;
+    color: #ffff;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 56px;
+    margin-left: 12%;
+    }
+    nav{
+        margin-top: 56px;
+        margin-left: 29%;
+
+    }
+    .topnav a{
+        color:#ffff;
+        text-align: center;
+        padding: 12px 16px;
+        font-size: 14px;
+        font-weight: bold;
+        
+    }
+    .topnav a:hover{
+        border-bottom: 3px solid #DE8C2F ;
+      
+    }
